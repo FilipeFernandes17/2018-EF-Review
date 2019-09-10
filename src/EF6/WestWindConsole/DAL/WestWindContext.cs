@@ -27,16 +27,33 @@ namespace WestWindConsole.DAL
             //intialization in the .configfile
         }
 
-        public DbSet<Product> Products { get; set; }
+        /*public DbSet<Product> Products { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
         public DbSet<Shipper> Shippers { get; set; }
-        public DbSet<Shipment> Shipments { get; set; }
+        public DbSet<Shipment> Shipments { get; set; }*/
 
         // TODO: Practice - Add entities and DbSet<> properties for the remaining tables
+
+        public DbSet<> BuildVersion { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<> Customers { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
+        public DbSet<> ManifestItems { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<> Orders { get; set; }
+        public DbSet<> Payments { get; set; }
+        public DbSet<> PaymentTypes { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<> Regions { get; set; }
+        public DbSet<Shipment> Shipments { get; set; }
+        public DbSet<Shipper> Shippers { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<> Territories { get; set; }
 
 
     }
