@@ -40,7 +40,7 @@ namespace WestWindConsole.DAL
 
         public DbSet<> BuildVersion { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
         public DbSet<> ManifestItems { get; set; }
