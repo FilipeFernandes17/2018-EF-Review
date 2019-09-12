@@ -49,7 +49,7 @@ namespace WestWindConsole.DAL
         public DbSet<Payment> Payments { get; set; }
         public DbSet<PaymentType> PaymentTypes { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Regions> Regions { get; set; }
+       
         public DbSet<Shipment> Shipments { get; set; }
         public DbSet<Shipper> Shippers { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }

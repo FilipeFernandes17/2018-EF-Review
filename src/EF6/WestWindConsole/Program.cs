@@ -50,7 +50,7 @@ namespace WestWindConsole
                         break;
                     // TODO: Practice - Display methods for remaining tables
                     case 9:
-                        DisplayRegions();
+                        //DisplayRegions();
                         break;
                     case 10:
                         DisplayPaymentTypes();
@@ -174,7 +174,7 @@ namespace WestWindConsole
             }
         }
 
-        private void DisplayRegions()
+        /*private void DisplayRegions()
         {
             using (var context = new WestWindContext())
             {
@@ -182,7 +182,7 @@ namespace WestWindConsole
                 // $ - String Interpolation
                 Console.WriteLine($"There are {count} Regions ");
             }
-        }
+        }*/
         private void DisplayPaymentTypes()
         {
             using (var context = new WestWindContext())
