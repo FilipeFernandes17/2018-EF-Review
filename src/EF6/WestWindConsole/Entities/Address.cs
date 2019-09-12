@@ -8,22 +8,16 @@ using System.Threading.Tasks;
 
 namespace WestWindConsole.Entities
 {
-    [Table("Customers")]
-    public class Customer
+    [Table("Addresses")]
+    public class Addresses
     {
         [Key]
-        public int CustomerID { get; set; }
-        public string CompanyName { get; set; }
-        public string ContactName { get; set; }
-        public string ContactTitle { get; set; }
-        public string ContactEmail { get; set; }
+        public int AddressID { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
         public string Region { get; set; }
         public string PostalCode { get; set; }
         public string Country { get; set; }
-        public string Phone { get; set; }
-        public string Fax { get; set; }
     }
 }
 
